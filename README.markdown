@@ -170,10 +170,10 @@ Found a bug? Have a feature request? Open an issue on our GitHub Issues page.
 
 <p className="text-sm text-gray-600 flex items-center gap-2 flex-wrap">
               <a
-                href="https://easyfrontend.vercel.app/"
+                href="https://quikfrontend.vercel.app/"
                 className="text-blue-600 hover:underline"
               >
-                EasyFrontend CLI
+                quikFrontend CLI
               </a>
               by
               <a
