@@ -126,7 +126,7 @@ We welcome contributions to make **quikfrontend** even better! Here's how to get
 2. **Clone your fork**:
 
    ```bash
-   git clone https://github.com/Haresh-729/easyFrontend
+   git clone https://github.com/Haresh-729/quikFrontend
    ```
 
 3. **Install dependencies**:
