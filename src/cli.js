@@ -8,7 +8,7 @@ const prompt = inquirer.createPromptModule();
 async function runCLI() {
   program
     .version('1.0.0')
-    .description('EasyFrontend - A CLI tool for frontend project generation')
+    .description('quikfrontend - A CLI tool for frontend project generation')
     .action(async () => {
       // Prompt user for inputs using the prompt module
       const answers = await prompt([

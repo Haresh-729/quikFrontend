@@ -1,6 +1,6 @@
-# EasyFrontend CLI 🚀
+# quikfrontend CLI 🚀
 
-**EasyFrontend** is a powerful and intuitive CLI tool that simplifies the process of setting up modern frontend projects. With a single command, generate a fully configured **React** project using **Vite**, pre-loaded with **Tailwind CSS**, **React Router**, **Redux Toolkit**, and more. Say goodbye to repetitive boilerplate setup and hello to rapid development! 🎉
+**quikfrontend** is a powerful and intuitive CLI tool that simplifies the process of setting up modern frontend projects. With a single command, generate a fully configured **React** project using **Vite**, pre-loaded with **Tailwind CSS**, **React Router**, **Redux Toolkit**, and more. Say goodbye to repetitive boilerplate setup and hello to rapid development! 🎉
 
 ---
 
@@ -22,34 +22,34 @@
 
 ## 🛠️ Installation
 
-Get started with **EasyFrontend** in just a few steps:
+Get started with **quikfrontend** in just a few steps:
 
 1. **Install globally via npm**:
 
    ```bash
-   npm install -g easyfrontend
+   npm install -g quikfrontend
    ```
 
 2. **Run the CLI**:
 
    ```bash
-   easyfrontend
+   quikfrontend
    ```
 
 Alternatively, use `npx` to run without installing globally:
 
 ```bash
-npx easyfrontend
+npx quikfrontend
 ```
 
 ---
 
 ## 🚀 Usage
 
-Run the `easyfrontend` command and follow the interactive prompts to configure your project:
+Run the `quikfrontend` command and follow the interactive prompts to configure your project:
 
 ```bash
-easyfrontend
+quikfrontend
 ```
 
 ### Example Prompts
@@ -119,20 +119,20 @@ VITE_PUBLIC_GOOGLE_CLIENT=your-google-client-id
 
 ## 🧑‍💻 Contributing
 
-We welcome contributions to make **EasyFrontend** even better! Here's how to get started:
+We welcome contributions to make **quikfrontend** even better! Here's how to get started:
 
 1. **Fork the repository**.
 
 2. **Clone your fork**:
 
    ```bash
-   git clone https://github.com/your-username/easyfrontend.git
+   git clone https://github.com/your-username/quikfrontend.git
    ```
 
 3. **Install dependencies**:
 
    ```bash
-   cd easyfrontend
+   cd quikfrontend
    npm install
    ```
 

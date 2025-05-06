@@ -1,9 +1,9 @@
 {
-    "name": "easyfrontend",
+    "name": "quikfrontend",
     "version": "1.0.0",
     "description": "A CLI tool for generating React-Vite frontend projects with pre-configured setups",
     "bin": {
-        "easyfrontend": "./bin/index.js"
+        "quikfrontend": "./bin/index.js"
     },
     "main": "bin/index.js",
     "scripts": {
@@ -46,5 +46,17 @@
         "inquirer": "^11.0.0",
         "tailwindcss-animate": "^1.0.7",
         "uuid": "^10.0.0"
-    }
+    },
+    
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hareshkurade/quikfrontend.git"
+  },
+  "homepage": "https://quikfrontend.vercel.app/",
+  "files": [
+    "bin",
+    "src",
+    "README.md"
+  ]
 }

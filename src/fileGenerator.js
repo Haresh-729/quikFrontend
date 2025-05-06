@@ -141,7 +141,7 @@ const RoutesConfig = () => {
             <Route path="/dashboard" element={<Dashboard />} />
           </Routes>
           <div className="bg-gray-900 b-2 pr-2 text-sm pb-1 flex justify-end items-center">
-            <p className="text-white">Designed and Developed with ❤️ by <a href="https://hareshkurade.netlify.app" className="text-green-400">easyFrontend</a></p>
+            <p className="text-white">Designed and Developed with ❤️ by <a href="https://hareshkurade.netlify.app" className="text-green-400">quikfrontend</a></p>
           </div>
         </div>
       </div>
@@ -362,7 +362,7 @@ export default function HeroPage() {
                   Welcome to <span className="bg-gradient-to-r from-blue-600 to-teal-500 text-transparent bg-clip-text">Your New Project</span>
                 </h1>
                 <p className="text-lg md:text-xl text-gray-600 mb-8">
-                  This beautiful landing page was generated with easyFrontend. Customize it to build something amazing.
+                  This beautiful landing page was generated with quikfrontend. Customize it to build something amazing.
                 </p>
                 <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
                   <button onClick={()=> {navigate("/login")}} className="bg-blue-600 text-white px-6 py-3 rounded-md hover:bg-blue-700 transition-all transform hover:scale-105 flex items-center justify-center">
@@ -1198,7 +1198,7 @@ const Dashboard = () => {
     <div className="h-full bg-gray-900 text-white flex items-center justify-center p-4">
       <div className="w-full max-w-6xl h-full flex flex-col">
         <header className="mb-4">
-          <h1 className="text-3xl font-bold text-green-500">Welcome to EasyFrontend Dashboard...!</h1>
+          <h1 className="text-3xl font-bold text-green-500">Welcome to quikfrontend Dashboard...!</h1>
         </header>
       </div>
     </div>
@@ -1333,7 +1333,7 @@ const Sidebar = ({ isOpen }) => {
       />
       <div className="flex flex-row gap-2 items-center mb-4 pt-3 px-2">
         <Feather className="w-[2rem] sm:w-[2.5rem]" />
-        <p className={\`h-[1.8rem] \${isHovered ? "opacity-100" : "opacity-0 w-0"}\`} alt="logo">EasyFrontend</p>
+        <p className={\`h-[1.8rem] \${isHovered ? "opacity-100" : "opacity-0 w-0"}\`} alt="logo">quikfrontend</p>
       </div>
       <div className="flex flex-col gap-2 px-2">
         {features.map((item, index) => (
