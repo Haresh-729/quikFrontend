@@ -1,0 +1,50 @@
+{
+    "name": "easyfrontend",
+    "version": "1.0.0",
+    "description": "A CLI tool for generating React-Vite frontend projects with pre-configured setups",
+    "bin": {
+        "easyfrontend": "./bin/index.js"
+    },
+    "main": "bin/index.js",
+    "scripts": {
+        "start": "node bin/index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "cli",
+        "react",
+        "vite",
+        "frontend",
+        "code-generation",
+        "tailwindcss",
+        "redux",
+        "react-router",
+        "axios",
+        "lucide-react",
+        "google-oauth",
+        "boilerplate",
+        "scaffolding",
+        "project-generator",
+        "frontend-development",
+        "rapid-prototyping",
+        "starter-template",
+        "developer-tools",
+        "automation",
+        "productivity",
+        "web-development",
+        "react-developers",
+        "frontend-engineers",
+        "jamstack",
+        "single-page-app",
+        "modern-web"
+      ],
+    "author": "Haresh Kurade (https://hareshkurade.netlify.app)",
+    "license": "SEE LICENSE IN LICENSE",
+    "dependencies": {
+        "commander": "^12.0.0",
+        "fs-extra": "^11.2.0",
+        "inquirer": "^11.0.0",
+        "tailwindcss-animate": "^1.0.7",
+        "uuid": "^10.0.0"
+    }
+}
