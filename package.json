@@ -1,6 +1,6 @@
 {
     "name": "quikfrontend",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "A CLI tool for generating React-Vite frontend projects with pre-configured setups",
     "bin": {
         "quikfrontend": "./bin/index.js"
@@ -37,7 +37,7 @@
         "jamstack",
         "single-page-app",
         "modern-web"
-      ],
+    ],
     "author": "Haresh Kurade (https://hareshkurade.netlify.app)",
     "license": "SEE LICENSE IN LICENSE",
     "dependencies": {
@@ -47,16 +47,15 @@
         "tailwindcss-animate": "^1.0.7",
         "uuid": "^10.0.0"
     },
-    
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/hareshkurade/quikfrontend.git"
-  },
-  "homepage": "https://quikfrontend.vercel.app/",
-  "files": [
-    "bin",
-    "src",
-    "README.md"
-  ]
+    "devDependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/hareshkurade/quikfrontend.git"
+    },
+    "homepage": "https://quikfrontend.vercel.app/",
+    "files": [
+        "bin",
+        "src",
+        "README.md"
+    ]
 }
