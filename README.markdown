@@ -126,7 +126,7 @@ We welcome contributions to make **EasyFrontend** even better! Here's how to get
 2. **Clone your fork**:
 
    ```bash
-   git clone https://github.com/your-username/easyfrontend.git
+   git clone https://github.com/Haresh-729/easyFrontend
    ```
 
 3. **Install dependencies**:
@@ -168,13 +168,51 @@ Found a bug? Have a feature request? Open an issue on our GitHub Issues page.
 
 ## 📜 License
 
-This project is licensed under the MIT License.
+<p className="text-sm text-gray-600 flex items-center gap-2 flex-wrap">
+              <a
+                href="https://easyfrontend.vercel.app/"
+                className="text-blue-600 hover:underline"
+              >
+                EasyFrontend CLI
+              </a>
+              by
+              <a
+                href="https://hareshkurade.netlify.app"
+                className="text-blue-600 hover:underline"
+              >
+                Haresh Kurade
+              </a>
+              is licensed under
+              <a
+                href="https://creativecommons.org/licenses/by-nc/4.0/?ref=chooser-v1"
+                target="_blank"
+                rel="license noopener noreferrer"
+                className="flex items-center gap-1 text-blue-600 hover:underline"
+              >
+                CC BY-NC 4.0
+                <img
+                  src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"
+                  alt="Creative Commons"
+                  style="width: 15px;"
+                />
+                <img
+                  src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"
+                  alt="Attribution"
+                  style="width: 15px;"
+                />
+                <img
+                  src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"
+                  alt="NonCommercial"
+                  style="width: 15px;"
+                />
+              </a>
+            </p>
 
 ---
 
 ## 🌟 Acknowledgements
 
-- Built with ❤️ by Your Name.
+- Built with ❤️ by Haresh Kurade.
 - Inspired by modern frontend development workflows.
 - Thanks to the open-source community for tools like Vite, React, and Tailwind CSS.
 
@@ -184,9 +222,8 @@ This project is licensed under the MIT License.
 
 Have questions or feedback? Reach out to us:
 
-- **Email**: your.email@example.com
-- **Twitter**: @YourHandle
-- **GitHub**: your-username
+- **Email**: kuradeharesh4002@gmail.com
+- **GitHub**: haresh-729
 
 ---
 
