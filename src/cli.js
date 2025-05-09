@@ -64,6 +64,8 @@ async function runCLI() {
         message: '📝 Enter your project name:',
         validate: (input) =>
           input.trim() !== '' || 'Project name cannot be empty',
+        filter: (input) =>
+          input.trim().toLowerCase().replace(/\s+/g, '-'),
       },
     ]);
 
