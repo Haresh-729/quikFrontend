@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Yatra+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Yatra+One&display=swap');
+@import 'tailwindcss';
+@plugin "tailwindcss-animate";
+
+@theme {
+  --font-roboto: 'Roboto', 'sans-serif';
+  --font-raleway: 'Raleway', 'sans-serif';
+  --font-poppins: 'Poppins', 'sans-serif';
+  --color-dark-blue: #1e2251;
+  --color-green: #13ec00;
+  --color-avocado: #5c8001;
+  --color-superiory-blue: #6ea4bf;
+  --color-ebony: #626c66;
+  --color-light-blue: #a7cecb;
+  --color-madder: #b10f2e;
+  --color-light-gray: #e5e5e5;
+  --color-yellow: #ffd700;
+  --color-rose: #ff2e63;
+  --color-red: #ff0000;
+  --color-purple: #9747ff;
+  --color-sky-blue: #4facfe;
+  --color-indigo: #4f00bc;
+  --color-teal: #08a9bb;
+  --color-cerulean: #06b6d4;
+  --color-logo-blue: #00f2fe;
+  --ease-fluid: cubic-bezier(0.3, 0, 0, 1);
+  --ease-snappy: cubic-bezier(0.2, 0, 0, 1);
+}
+
+@layer utilities {
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@layer utilities {
+  .fade-in {
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  .fade-out {
+    animation: fadeOut 0.5s ease-in-out;
+  }
+  .glow {
+    animation: glow 3s infinite ease-in-out;
+  }
+  .gradient-glow {
+    animation: gradient 15s infinite alternate;
+  }
+  .pulse {
+    animation: pulse 2s infinite;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes glow {
+  0%,
+  100% {
+    box-shadow: 0 0 15px rgba(59, 130, 246, 0.5);
+  }
+  50% {
+    box-shadow: 0 0 30px rgba(59, 130, 246, 0.8);
+  }
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    box-shadow: 0 0 15px rgba(59, 130, 246, 0.5);
+  }
+  50% {
+    box-shadow: 0 0 30px rgba(59, 130, 246, 0.8);
+  }
+}
