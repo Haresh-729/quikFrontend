@@ -6,6 +6,7 @@ const { generateFiles } = require('./fileGenerator');
 async function setupProject({ projectName }) {
   try {
     const projectDir = path.join(process.cwd(), projectName);
+    const frontendDir = path.join(process.cwd(), 'Frontend');
 
     // Check if the project folder already exists
     if (fs.existsSync(projectDir)) {
@@ -21,8 +22,16 @@ async function setupProject({ projectName }) {
       stdio: 'inherit',
     });
 
-    // Step 2: Change directory into project
-    process.chdir(projectDir);
+    // Rename project folder to 'Frontend'
+    if (fs.existsSync(frontendDir)) {
+      console.log(`Removing existing 'Frontend' folder...`);
+      fs.removeSync(frontendDir);
+    }
+    fs.renameSync(projectDir, frontendDir);
+    console.log(`Renamed project folder to 'Frontend'`);
+
+    // Step 2: Change directory into Frontend
+    process.chdir(frontendDir);
 
     // Step 3: Install default dependencies
     console.log('📦 Installing base dependencies...');
@@ -47,13 +56,13 @@ async function setupProject({ projectName }) {
 
     // Step 5: Generate your custom file structure
     console.log('🛠️ Generating project files...');
-    await generateFiles(projectDir);
+    await generateFiles(frontendDir);
 
     // Step 6: Initialize Git (optional)
     console.log('🔧 Initializing Git repository...');
     runCommand('git init');
     runCommand('git add .');
-    runCommand('git commit -m "Initial commit"');
+    runCommand('git commit -m "Initial quikFrontend commit"');
 
     // Step 7: Start dev server
     console.log('✅ Project setup complete. Starting dev server...');
