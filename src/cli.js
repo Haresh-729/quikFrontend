@@ -65,6 +65,12 @@ async function runCLI() {
         validate: (input) =>
           input.trim() !== '' || 'Project name cannot be empty',
       },
+      {
+        type: 'confirm',
+        name: 'setupShadcn',
+        message: '🎨 Setup Shadcn ?',
+        default: false, //Default to No.
+      },
     ]);
 
     console.log(chalk.green('\n✨ Setting up your project...\n'));
