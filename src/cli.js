@@ -67,6 +67,12 @@ async function runCLI() {
         filter: (input) =>
           input.trim().toLowerCase().replace(/\s+/g, '-'),
       },
+      {
+        type: 'confirm',
+        name: 'setupShadcn',
+        message: '🎨 Setup Shadcn ?',
+        default: false, //Default to No.
+      },
     ]);
 
     console.log(chalk.green('\n✨ Setting up your project...\n'));

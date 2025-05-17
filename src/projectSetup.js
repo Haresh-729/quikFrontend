@@ -1,9 +1,9 @@
 const path = require('path');
 const fs = require('fs-extra');
 const { runCommand } = require('./utils');
-const { generateFiles } = require('./fileGenerator');
+const { generateFiles } = require('./fileGenerator.js');
 
-async function setupProject({ projectName }) {
+async function setupProject({ framework, language, projectName, setupShadcn }) {
   try {
     const projectDir = path.join(process.cwd(), projectName);
     const frontendDir = path.join(process.cwd(), 'Frontend');
@@ -56,7 +56,7 @@ async function setupProject({ projectName }) {
 
     // Step 5: Generate your custom file structure
     console.log('🛠️ Generating project files...');
-    await generateFiles(frontendDir);
+    await generateFiles(frontendDir, framework, language, setupShadcn);
 
     // Step 6: Initialize Git (optional)
     console.log('🔧 Initializing Git repository...');
@@ -65,7 +65,7 @@ async function setupProject({ projectName }) {
     runCommand('git commit -m "Initial quikFrontend commit"');
 
     // Step 7: Start dev server
-    console.log('✅ Project setup complete. Starting dev server...');
+    console.log('⚙️ Starting dev server...');
     runCommand('npm run dev');
   } catch (err) {
     console.error('❌ Project setup failed:', err.message);
