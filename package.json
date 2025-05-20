@@ -57,8 +57,10 @@
     },
     "homepage": "https://quikfrontend.vercel.app/",
     "files": [
-        "bin",
-        "src",
-        "README.md"
+        "bin/",
+        "src/",
+        "templates/",
+        "README.md",
+        "LICENSE"
     ]
 }
